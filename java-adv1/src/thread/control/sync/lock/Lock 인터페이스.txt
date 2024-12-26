@@ -1,0 +1,29 @@
+
+Lock 인터페이스에서 제공하는 메소드
+
+void lock()
+    - 락을 획득한다. 만약 다른 스레드가 이미 락을 획득했다면, 락이 풀릴 때 까지 waiting 한다.
+     이 메소드는 인터럽트에 응답하지 않는다.
+
+     ※ 여기서 사용하는 lock은 객체 내부에 있는 모니터 락이 아니다
+     Lock 인터페이스와 ReentrantLock 이 제공하는 기능이다
+     모니터락과 BLOCKED 상태는 synchronized 에서만 사용된다.
+
+
+void lockInterruptibly()
+    - 락 획득을 시도하되, 다른 스레드가 인터럽트 할 수 있도록 한다.
+    - 만약 다른 스레드가 이미 락을 획득했다면 현재 스레드는 락을 획득할 때 까지 대기한다.
+     대기중에 인터럽트가 발생하면 interruptedException 이 발생하며 락 획득을 포기한다.
+
+
+
+boolean tryLock()
+    - 락 획득을 시도하고 즉시 성공 여부를 반환한다. 만약 다른 스레드가 이미 락을 획득했다면 false 를 반환하고
+    그렇지 않으면 락을 획득하고 true 를 반환한다.
+
+
+
+
+boolean tryLock(long time, TimeUnit unit)
+    - 주어진 시간동안 락 획득을 시도한다. 주어진 시간 안에 획득하면 true를 반환한다.
+    주어진 시간이 지나도 획득하지 못하면 false 를 반환한다. 이 메소드는 대기중 인터럽트가 발생하면 InterruptedException 이 발생하며 락 획득을 포기한다.
