@@ -4,76 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee66023-af65-4b59-a5eb-265feda25cf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chat/clinet/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/clinet/ClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/clinet/ReadHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/clinet/WriterHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/CommandManagerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/SessionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/command/ChangeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/command/DefaultCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/command/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/command/JoinCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/command/MessageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chat/server/command/UsersCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/BasicV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/BasicV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/ConstructV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/ConstructV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/FieldUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/FieldV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/FieldV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/FieldV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/FieldV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/MethodV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/MethodV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/MethodV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/data/BasicData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/data/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/data/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/HttpRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/HttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/PageNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/ServletManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/DiscardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/InternalErrorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/NotFoundServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/httpserver/servlet/reflection/ReflectionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v1/HttpServerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v1/ServerMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v2/HttpRequestHandlerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v2/HttpServerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v2/ServerMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v3/HttpRequestHandlerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v3/HttpServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v3/PercentEncodingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v3/ServerMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v4/HttpRequestHandlerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v4/HttpServerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v4/ServerMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v5/ServerMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v5/servlet/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v5/servlet/SearchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v5/servlet/Site1Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v5/servlet/Site2Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v5/servlet/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v6/SearchControllerV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v6/ServerMainV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/was/v6/SiteControllerV6.java" afterDir="false" />
+    <list default="true" id="bee66023-af65-4b59-a5eb-265feda25cf6" name="Changes" comment="25.01.02 중간 정리">
+      <change afterPath="$PROJECT_DIR$/src/annotation/AnnotationServletV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/AnnotationServletV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/AnnotationServletV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/AnnoElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/ElementData1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/ElementData1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/ElementData2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/ElementData3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/InheritedAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/InheritedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/NoInheritedAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/basic/inherited/TestInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/java/DeprecatedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/java/DeprecatedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/java/OverrideMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/java/SuppressWarningCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/mapping/SimpleMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/mapping/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/mapping/TestControllerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/NotEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/ValidatorV1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/validator/ValidatorV2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v7/SearchControllerV7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v7/ServerMainV7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v7/SiteControllerV7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v7/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v8/SearchControllerV8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v8/ServerMainV8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/was/v8/SiteControllerV8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webservice/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webservice/MemberServiceMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/was/httpserver/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/was/httpserver/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/member-test.dat" beforeDir="false" afterPath="$PROJECT_DIR$/temp/member-test.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="package-info" />
         <option value="Class" />
       </list>
@@ -120,6 +94,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="annotation" />
       <recent name="chat.server" />
       <recent name="chat" />
     </key>
@@ -127,14 +102,14 @@
       <recent name="D:\2024\java-adv2\src\network\exception\close\reset" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="reflection" />
-      <recent name="was.httpserver" />
-      <recent name="was.v5.servlet" />
-      <recent name="was.v4" />
-      <recent name="was.v3" />
+      <recent name="annotation" />
+      <recent name="annotation.validator" />
+      <recent name="was.v8" />
+      <recent name="was.v7" />
+      <recent name="annotation.basic.inherited" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServerMainV6">
+  <component name="RunManager" selected="Application.MemberServiceMain">
     <configuration name="ClientMain_2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chat.clinet.ClientMain" />
       <module name="java-adv2" />
@@ -174,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.ConstructV1" />
+    <configuration name="DeprecatedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.java.DeprecatedMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="annotation.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.ConstructV2" />
+    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="io.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.FieldV3" />
+    <configuration name="MemberServiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="webservice.MemberServiceMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="webservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.FieldV4" />
+    <configuration name="OverrideMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.java.OverrideMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="annotation.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +201,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMainV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="was.v6.ServerMainV6" />
+    <configuration name="ServerMainV7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v7.ServerMainV7" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="was.v6.*" />
+          <option name="PATTERN" value="was.v7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMainV8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.v8.ServerMainV8" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="was.v8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,19 +231,19 @@
       <item itemvalue="Application.ClientV2-2" />
       <item itemvalue="Application.ClientV3_2" />
       <item itemvalue="Application.ClientMain_2" />
-      <item itemvalue="Application.ConstructV1" />
-      <item itemvalue="Application.ConstructV2" />
-      <item itemvalue="Application.FieldV3" />
-      <item itemvalue="Application.FieldV4" />
-      <item itemvalue="Application.ServerMainV6" />
+      <item itemvalue="Application.MemberConsoleMain" />
+      <item itemvalue="Application.MemberServiceMain" />
+      <item itemvalue="Application.ServerMainV7" />
+      <item itemvalue="Application.ServerMainV8" />
+      <item itemvalue="Application.DeprecatedMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerMainV6" />
-        <item itemvalue="Application.ConstructV2" />
-        <item itemvalue="Application.ConstructV1" />
-        <item itemvalue="Application.FieldV4" />
-        <item itemvalue="Application.FieldV3" />
+        <item itemvalue="Application.MemberServiceMain" />
+        <item itemvalue="Application.MemberConsoleMain" />
+        <item itemvalue="Application.ServerMainV8" />
+        <item itemvalue="Application.ServerMainV7" />
+        <item itemvalue="Application.DeprecatedMain" />
       </list>
     </recent_temporary>
   </component>
@@ -272,8 +260,18 @@
       <workItem from="1735128765366" duration="12742000" />
       <workItem from="1735206624030" duration="72000" />
       <workItem from="1735214807493" duration="26172000" />
-      <workItem from="1735816214794" duration="8461000" />
+      <workItem from="1735816214794" duration="14690000" />
+      <workItem from="1736076332501" duration="8764000" />
     </task>
+    <task id="LOCAL-00001" summary="25.01.02 중간 정리">
+      <option name="closed" value="true" />
+      <created>1735825484126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735825484126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,5 +299,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="25.01.02 중간 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.01.02 중간 정리" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/was/httpserver/HttpRequest.java</url>
+          <line>15</line>
+          <properties field="path" class="was.httpserver.HttpRequest" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
