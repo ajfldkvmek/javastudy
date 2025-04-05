@@ -10,7 +10,7 @@ public class LambdaReduce {
         T reduce(T t1, T t2);
     }
 
-    public static <T> T reduce(List<T> list, T init, MyReducer<T> myReducer) {
+    public static <T> T reducer(List<T> list, T init, MyReducer<T> myReducer) {
         T result = init;
         for (T t : list) {
             result = myReducer.reduce(result, t);
@@ -22,8 +22,8 @@ public class LambdaReduce {
 
         List<Integer> list = Arrays.asList(1, 2, 3, 4);
 
-        Integer sum = reduce(list, 0, Integer::sum);
-        Integer mul = reduce(list, 1, (a, b) -> a * b);
+        Integer sum = reducer(list, 0, Integer::sum);
+        Integer mul = reducer(list, 1, (a, b) -> a * b);
 
         System.out.println("누적합: " + sum);
         System.out.println("누적곱: " + mul);
