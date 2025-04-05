@@ -7,7 +7,7 @@ public class LambdaReduce {
 
     @FunctionalInterface
     public interface MyReducer<T> {
-        T reduce(T t1, T t2s);
+        T reduce(T t1, T t2);
     }
 
     public static <T> T reduce(List<T> list, T init, MyReducer<T> myReducer) {
@@ -22,7 +22,7 @@ public class LambdaReduce {
 
         List<Integer> list = Arrays.asList(1, 2, 3, 4);
 
-        Integer sum = reduce(list, 0, (a, b) -> a + b);
+        Integer sum = reduce(list, 0, Integer::sum);
         Integer mul = reduce(list, 1, (a, b) -> a * b);
 
         System.out.println("누적합: " + sum);
