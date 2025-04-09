@@ -18,23 +18,28 @@ public class Ex1_Number2 {
                 , new Student("E", 50)
         );
 
-        List<Student> dir = direct(students);
-        List<Student> lambda = lambda(students);
+        List<String> dir = direct(students);
+        List<String> lambda = lambda(students);
 
         System.out.println("dir = " + dir);
         System.out.println("lambda = " + lambda);
 
     }
 
-    private static List<Student> lambda(List<Student> students) {
-        return GenericMapper.map(GenericFilter.filter(students, student -> student.getScore() >= 80), f -> f);
+    private static List<String> lambda(List<Student> students) {
+        return GenericMapper.map(
+                GenericFilter.filter(students, student -> student.getScore() >= 80)
+                , Student::getName);
+//        return GenericMapper.map(
+//                GenericFilter.filter(students, student -> student.getScore() >= 80)
+//                , f -> f.getName());
     }
 
-    private static List<Student> direct(List<Student> students) {
-        List<Student> result = new ArrayList<>();
+    private static List<String> direct(List<Student> students) {
+        List<String> result = new ArrayList<>();
         for (Student student : students) {
             if (student.getScore() >= 80) {
-                result.add(student);
+                result.add(student.getName());
             }
         }
         return result;
