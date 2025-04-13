@@ -53,4 +53,9 @@ public class MyStreamV3<T> {
         }
     }
 
+    public T getFirst() {
+//        return internalList.get(0);
+        //getFirst 메소드는 자바 버전 21부터 추가됨
+        return internalList.getFirst();
+    }
 }
