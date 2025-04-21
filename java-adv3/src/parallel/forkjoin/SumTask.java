@@ -28,8 +28,8 @@ public class SumTask extends RecursiveTask<Integer> {
     @Override
     protected Integer compute() {
         // 작업 범위가 작으면 직접 계산
-//        if (list.size() < THRESHOLD) {
-        if (list.size() <= THRESHOLD) {
+        if (list.size() < THRESHOLD) {
+//        if (list.size() <= THRESHOLD) {
             log("[처리 시작] " + list);
             int sum = list.stream()
                     .mapToInt(HeavyJob::heavyTask)
